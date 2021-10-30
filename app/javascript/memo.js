@@ -1,5 +1,5 @@
-const buildHTML = (XHR) => {
-  const item = XHR.response.post;
+const buildHTML = (XHR) => {       /アロー関数(functionを省略)/
+  const item = XHR.response.post;  /;は文章の終わりを示す、省略可(現場によりルールが異なる)/
   const html = `
     <div class="post">
       <div class="post-date">
